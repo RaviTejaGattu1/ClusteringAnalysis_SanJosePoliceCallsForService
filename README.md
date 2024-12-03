@@ -26,6 +26,18 @@ San Jose faces challenges related to increasing crime rates, growing urban popul
 The dataset was sourced from the **San Jose Police Department Open Data Portal**.
 - Dataset - https://data.sanjoseca.gov/dataset/police-calls-for-service
 
+### Dataset Preparation: Random Sampling of Rows
+
+- To optimize performance and preserve dataset diversity, **5000 rows** were randomly sampled from each dataset using Python's `pandas` library.
+- The code for generating the sampled datasets, along with the sampled data files, is included in the repository. Please ensure the correct file paths are specified when running the code.
+- Files are named as : sampled_file2022.csv, sampled_file2023.csv and sampled_file2024.csv
+
+
+
+
+
+
+
 
 ### Description
 - **Records**: 814,737 rows of police call data spanning 2022–2024.
